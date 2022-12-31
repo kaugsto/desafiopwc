@@ -6,5 +6,9 @@ function soma() {
     console.log(numerorua)
 
 
-    resultado.textContent = nomerua +', '+ numerorua 
+    if(nomerua !== '' && numerorua !== ''){
+        resultado.textContent = nomerua +', '+ numerorua
+    } else{
+        alert ('Preencha todos os campos')
+    }
 }
