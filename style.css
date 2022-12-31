@@ -34,9 +34,9 @@ button{
     border-radius: 1px black solid;
     cursor: pointer;
 }
-textarea{
+.result{
     display: flex;
-    width: 34.5vw;
+    width: 35vw;
     height: 250px;
     background-color: cornsilk;
     border: 1px black solid;
