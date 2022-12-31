@@ -11,10 +11,9 @@ header{
 #formulario{
     display: flex;
     flex-direction: column;
-    background-color: aqua;
     width: 35vw;
     height: 500px;
-    border: 4px black solid;
+    border: 2px black solid;
 }
 .conteudo{
     display: flex;
@@ -22,7 +21,7 @@ header{
     background-color: cornsilk;
     width: 35vw;
     height: 100px;
-    border: 1px black solid;
+    /* border: 1px black solid; */
 }
 button{
     display: flex;
@@ -32,7 +31,7 @@ button{
     background-color:rgba(209, 148, 33, 0.911);
     width: 35vw;
     height: 50px;
-    border-radius: 1px black solid;
+    /* border: 1px black solid; */
     cursor: pointer;
 }
 .result{
@@ -40,5 +39,5 @@ button{
     width: 35vw;
     height: 250px;
     background-color: cornsilk;
-    border: 1px black solid;
+    /* border: 1px black solid; */
 }
